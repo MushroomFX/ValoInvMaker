@@ -23,23 +23,36 @@
 
   }
 .weapon{
-    background:black
+    /* background:black */
 }
 .empty{
     opacity: 1;
     height: 30px;
     width: 100%;
 }
-.category{
+.category,.slot_name{
     text-align: center;
     color:#F6F8D9;
     transform:translate(0,6px);
     font-size:16px;
     font-weight:bold;
+    text-transform: uppercase;
+}
+.slot_name{
+    transform:translate(0,0px);
+    font-size:16px;
 }
 .header{
     transform:translate(0,1px);
 }
 body{
     background:#1b3749
+}
+.slot_name{
+    height:17px;
+    background:#F6F8D940;
+}
+.slot_image{
+    height:calc(141px - 17px);
+    background:#F6F8D920;
 }
