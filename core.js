@@ -1,5 +1,9 @@
 var x = document.getElementsByClassName('weapon')
 for (i=0;i<x.length;i++) {
-    var color = x.length *i 
-    x[i].style.backgroundColor = `hsl(${color}deg,100%,50%)`
+    x[i].innerHTML = `
+    <div class="weapon slot_wrapper">
+        <div class="weapon slot_image"></div>
+        <div class="weapon slot_name"></div>
+    </div>
+    `
 }
