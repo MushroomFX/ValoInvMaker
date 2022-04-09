@@ -1,4 +1,8 @@
-.container {  display: grid;
+.container {
+    position: absolute;
+    right: 183px;
+    right: 80px;
+    display: grid;
     grid-template-columns: 202px 326px 364px 395px;
     grid-template-rows: 141px 141px 141px 141px 141px;
     grid-auto-columns: 1fr;
@@ -11,5 +15,11 @@
       ". . . ."
       ". . . ."
       ". . . .";
+
   }
-  
+.weapon{
+    background:black
+}
+.empty{
+    opacity: 0;
+}
