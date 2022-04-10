@@ -3,9 +3,9 @@
 body{
     font-family: 'Roboto', sans-serif;
     background:#1b3749;
-    background-image:url('./src/BG.png');
     width:1920px;
     height:1080;
+    background-image:url('./src/BG.png');
     margin: 0;
 }
 .container {
